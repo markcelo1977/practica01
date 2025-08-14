@@ -1,0 +1,64 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body defaults */
+body {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ee8585;
+    color: #222;
+    line-height: 1.6;
+}
+form {
+    border: 1px solid #29056462;
+    border-radius: 5px;
+    padding: 20px;
+    
+    background: #fff;
+}
+label {
+    color: #ce1111;
+    font-weight: bold;
+}
+.custom-form {
+    background-color: #111111;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Custom form styles */
+.custom-form input {
+    background-color: aqua;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.custom-form .btn {
+    background-color: #111111;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 16px;
+}
+.custom-form .btn:hover {
+    background-color: #040c80;
+    border-color: #f3f3fa;
+}
+
+.custom-form p {
+    margin-top: 10px;
+    color: #f8f6f6;
+    font-weight: bold;
+    text-align: center;
+}
+
